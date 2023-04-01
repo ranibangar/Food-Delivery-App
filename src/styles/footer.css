@@ -1,0 +1,123 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #fde4e4;
+  }
+  .footer_logo img {
+    width: calc(100% - 80%);
+    margin-bottom: 5px;
+  }
+  .footer_logo h6 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  .footer_logo p {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 28px;
+  }
+  .delivery_time-list{
+    background: transparent !important;
+}
+.delivery_time-item{
+    background: transparent !important;
+
+}
+.delivery_time-item span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #212245;
+  }
+  .delivery_time-item p{
+    color:#212245;
+  }
+  .footer_title {
+    font-size: 17.6px;
+    color: #212245;
+    font-weight: 600;
+  }
+  newsletter{
+  padding: 5px;
+  border: 1px solid #212245;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  }
+  .newsletter input {
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    margin-right: 5px;
+  }
+  .newsletter input:focus {
+    outline: none;
+  }
+  .newsletter span {
+    background: #df2020;
+    padding: 5px 30px;
+    border-radius: 5px;
+  }
+  
+  .newsletter span i {
+    color: #fff;
+  }
+  
+  .newsletter input::placeholder {
+    color: #212245;
+  }
+  .social_links span i {
+    padding: 10px;
+    background: #df2020;
+    color: #fff;
+    border-radius: 50%;
+  }
+  .copyright_text {
+    font-size: 17px;
+    color: #df2020;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .newsletter input {
+      padding: 7px;
+      font-size: 11.2px;
+    }
+    .newsletter span {
+      padding: 4px 20px;
+      font-size: 11.2pxrem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .footer_title {
+      font-size: 12.8px;
+    }
+  
+    .delivery_time-item span {
+      font-size: 12.8px;
+    }
+  
+    .delivery_time-item p {
+      font-size: 11.2px;
+      margin-bottom: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .copyright_text {
+      text-align: center;
+    }
+  
+    .social_links p {
+      font-size: 12.8px;
+    }
+  
+    .social_links span {
+      padding: 4px;
+    }
+    .social_links span a {
+      font-size: 11.2px;
+    }
+  }
